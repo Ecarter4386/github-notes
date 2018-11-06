@@ -23,4 +23,9 @@ If you forget to commit message or otherwise end up in VIM:
 
 git log => shows a list of commits 
 git diff => shows changes since last commit
-git status => tells me what's what
+git status => tells me what's what 
+git branch => tells me what branches exist and which one I'm in
+git branch -d [BRANCH_NAME] => deletes BRANCH_NAME
+git checkout [BRANCH_NAME] => switches me to BRANCH_NAME
+git checkout -b [BRANCH_NAME] => creates [BRANCH_NAME]
+git merge [BRANCH_NAME] => merges all changes made in
